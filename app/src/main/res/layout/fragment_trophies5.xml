@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trophies5Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/real_madrid_background_grey">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_header_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3a"
+            android:layout_width="430dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/rm_trophies"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/text_trophies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/proximanova_bold"
+            android:paddingStart="@dimen/text_view_padding_side_16dp"
+            android:paddingTop="@dimen/text_view_padding_top_8dp"
+            android:paddingEnd="@dimen/text_view_padding_side_16dp"
+            android:paddingBottom="@dimen/text_view_padding_top_8dp"
+            android:text="@string/text_trophies"
+            android:textAlignment="center"
+            android:textColor="#0252A0"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3a" />
+
+        <ImageView
+            android:id="@+id/imageTrophy"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_trophy3_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_trophies" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="35"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageTrophy"
+            app:layout_constraintStart_toStartOf="@+id/imageTrophy"
+            app:layout_constraintTop_toTopOf="@+id/imageTrophy" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="X"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider"
+            app:layout_constraintStart_toEndOf="@+id/imageTrophy" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_bold"
+            android:text="Spanish League Champions"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider"
+            app:layout_constraintStart_toEndOf="@+id/textView42" />
+
+        <ImageView
+            android:id="@+id/imageTrophy2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_trophy3_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="19"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageTrophy2"
+            app:layout_constraintStart_toStartOf="@+id/imageTrophy2"
+            app:layout_constraintTop_toTopOf="@+id/imageTrophy2" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="X"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider2"
+            app:layout_constraintStart_toEndOf="@+id/imageTrophy2" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_bold"
+            android:text="Spanish Cup Winner"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider2"
+            app:layout_constraintStart_toEndOf="@+id/textView41" />
+
+        <ImageView
+            android:id="@+id/imageTrophy3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_trophy3_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy2" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="12"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageTrophy3"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="@+id/imageTrophy3"
+            app:layout_constraintTop_toTopOf="@+id/imageTrophy3" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="X"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider3"
+            app:layout_constraintStart_toEndOf="@+id/imageTrophy3" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_bold"
+            android:text="Spanish Super Cup Winner"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider3"
+            app:layout_constraintStart_toEndOf="@+id/textView48" />
+
+        <ImageView
+            android:id="@+id/imageTrophy4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_trophy3_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy3" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="4"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageTrophy4"
+            app:layout_constraintStart_toStartOf="@+id/imageTrophy4"
+            app:layout_constraintTop_toTopOf="@+id/imageTrophy4" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="X"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider4"
+            app:layout_constraintStart_toEndOf="@+id/imageTrophy4" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_bold"
+            android:text="FIFA Club World Cup Winner"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider4"
+            app:layout_constraintStart_toEndOf="@+id/textView51" />
+
+        <ImageView
+            android:id="@+id/imageTrophy5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_trophy3_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy4" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="13"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageTrophy5"
+            app:layout_constraintStart_toStartOf="@+id/imageTrophy5"
+            app:layout_constraintTop_toTopOf="@+id/imageTrophy5" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="X"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider5"
+            app:layout_constraintStart_toEndOf="@+id/imageTrophy5" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_bold"
+            android:text="Champions League Winner"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider5"
+            app:layout_constraintStart_toEndOf="@+id/textView56" />
+
+        <ImageView
+            android:id="@+id/imageTrophy6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_trophy3_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy5" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="2"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageTrophy6"
+            app:layout_constraintStart_toStartOf="@+id/imageTrophy6"
+            app:layout_constraintTop_toTopOf="@+id/imageTrophy6" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="X"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider6"
+            app:layout_constraintStart_toEndOf="@+id/imageTrophy6" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_bold"
+            android:text="UEFA Cup Winner"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider6"
+            app:layout_constraintStart_toEndOf="@+id/textView59" />
+
+        <ImageView
+            android:id="@+id/imageTrophy9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_trophy3_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy6" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="3"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageTrophy9"
+            app:layout_constraintStart_toStartOf="@+id/imageTrophy9"
+            app:layout_constraintTop_toTopOf="@+id/imageTrophy9" />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="X"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider8"
+            app:layout_constraintStart_toEndOf="@+id/imageTrophy9" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_bold"
+            android:text="Intercontinental Cup Winner"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider8"
+            app:layout_constraintStart_toEndOf="@+id/textView64" />
+
+        <ImageView
+            android:id="@+id/imageTrophy10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_trophy3_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy9" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="4"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageTrophy10"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="@+id/imageTrophy9"
+            app:layout_constraintTop_toTopOf="@+id/imageTrophy10" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_regular"
+            android:text="X"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider9"
+            app:layout_constraintStart_toEndOf="@+id/imageTrophy10" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/proximanova_bold"
+            android:text="UEFA Super Cup Winner"
+            android:textColor="@color/real_madrid_black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/divider9"
+            app:layout_constraintStart_toEndOf="@+id/textView67" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="409dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="409dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy2" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="409dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy3" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="409dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy4" />
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="409dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy5" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="409dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy6" />
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="409dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy9" />
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="409dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageTrophy10" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

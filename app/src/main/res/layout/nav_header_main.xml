@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/nav_header_desc"
+        app:srcCompat="@drawable/real_madrid_200px_illustrator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/proximanova_bold"
+        android:text="@string/nav_header_title"
+        android:textColor="@color/real_madrid_white_colorOnPrimary"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/proximanova_regular"
+        android:text="Developed by Jack Mullin"
+        android:textColor="@color/real_madrid_gold"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:id="@+id/textViewEmail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/proximanova_alt_reg_italic"
+        android:text="code.softwaredev@gmail.com"
+        android:textColor="@color/real_madrid_red2"
+        android:textSize="13sp" />
+</LinearLayout>

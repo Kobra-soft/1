@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/real_madrid_background_grey"
+    tools:context=".MainActivitySIVExample">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/realmadrid84x84_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/circleImageView">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <ImageView
+        android:id="@+id/ImageViewCourt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/realmadrid84x84_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/ImageViewCourt2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/realmadrid84x84_1_wht"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageViewCourt">
+
+    </ImageView>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/realmadrid84x84_1_wht"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageViewCourt2"
+        app:shapeAppearanceOverlay="@style/circleImageView">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <ImageView
+        android:id="@+id/ImageViewCourt3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/realmadrid84x84_1_f"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView2">
+
+    </ImageView>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/realmadrid84x84_1_f"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageViewCourt3"
+        app:shapeAppearanceOverlay="@style/circleImageView">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/real_madrid_dark_blue_from_logo_colorPrimary"
+        android:src="@drawable/realmadrid84x84_1_f"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView3"
+        app:shapeAppearanceOverlay="@style/circleImageView2">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

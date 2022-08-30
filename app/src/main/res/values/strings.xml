@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">Real Madrid Fans App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Real Madrid Fan App</string>
+    <string name="nav_header_subtitle">code.softwaredeveloper@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="floating_action_bar_invisible">floating action bar / invisible</string>
+
+    <string name="menu_home2">Home</string>
+    <string name="menu_team3">Team</string>
+    <string name="menu_stadium4">Stadium</string>
+    <string name="menu_trophies5">Trophies</string>
+    <string name="menu_legends6">Legends</string>
+    <string name="menu_others">Others</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_contact">Contact Us</string>
+
+    <string-array name="programming_languages">
+        <item>Thibaut Courtois</item>
+        <item>Dani Carvajal</item>
+        <item>Éder Militão</item>
+        <item>David Alaba</item>
+        <item>Jesús Vallejo</item>
+        <item>Nacho Fernández</item>
+        <item>Eden Hazard</item>
+        <item>Toni Kroos</item>
+        <item>Karim Benzema</item>
+        <item>Luka Modrić</item>
+        <item>Marco Asensio</item>
+        <item>Marcelo</item>
+        <item>Andriy Lunin</item>
+        <item>Casemiro</item>
+        <item>Federico Valverde</item>
+        <item>Luka Jović</item>
+        <item>Lucas Vázquez</item>
+        <item>Gareth Bale</item>
+        <item>Dani Ceballos</item>
+        <item>Vinícius Júnior</item>
+        <item>Rodrygo</item>
+        <item>Isco</item>
+        <item>Ferland Mendy</item>
+        <item>Mariano</item>
+        <item>Eduardo Camavinga</item>
+        <item>Luis López</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>GK</item>
+        <item>RB</item>
+        <item>CB / RB / DM</item>
+        <item>CB / LB / CM</item>
+        <item>CB / RB / DM</item>
+        <item>CB / RB / LB</item>
+        <item>LW / AM / RW</item>
+        <item>CM</item>
+        <item>CF / LW / RW / SS</item>
+        <item>CM / AM</item>
+        <item>RW / LW / AM</item>
+        <item>LB / LM</item>
+        <item>GK</item>
+        <item>DM / CM / CB</item>
+        <item>CM / AM / RM</item>
+        <item>CF / SS</item>
+        <item>RB / RW</item>
+        <item>RW / LW / CF</item>
+        <item>CM / AM / LM</item>
+        <item>LW / RW</item>
+        <item>RW / LW / CF</item>
+        <item>AM / LW / CM</item>
+        <item>LB</item>
+        <item>CF</item>
+        <item>CM / DM</item>
+        <item>GK</item>
+    </string-array>
+
+    <string-array name="player_info">
+        <item>Belgian</item>
+        <item>Spanish</item>
+        <item>Brazilian</item>
+        <item>Austrian</item>
+        <item>Spanish</item>
+        <item>Spanish</item>
+        <item>Belgian</item>
+        <item>German</item>
+        <item>French</item>
+        <item>Croatian</item>
+        <item>Spanish</item>
+        <item>Brazilian</item>
+        <item>Ukrainian</item>
+        <item>Brazilian</item>
+        <item>Uruguayan</item>
+        <item>Serbian</item>
+        <item>Spanish</item>
+        <item>Welsh</item>
+        <item>Spanish</item>
+        <item>Brazilian</item>
+        <item>Brazilian</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Dominican</item>
+        <item>French</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string-array name="player_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="description2">
+        <item>Goalkeeper</item>
+        <item>Defender</item>
+        <item>Defender</item>
+        <item>Defender</item>
+        <item>Defender</item>
+        <item>Defender</item>
+        <item>Forward</item>
+        <item>Midfielder</item>
+        <item>Forward</item>
+        <item>Midfielder</item>
+        <item>Forward</item>
+        <item>Defender</item>
+        <item>Goalkeeper</item>
+        <item>Midfielder</item>
+        <item>Midfielder</item>
+        <item>Forward</item>
+        <item>Midfielder</item>
+        <item>Forward</item>
+        <item>Midfielder</item>
+        <item>Forward</item>
+        <item>Forward</item>
+        <item>Midfielder</item>
+        <item>Defender</item>
+        <item>Forward</item>
+        <item>Midfielder</item>
+        <item>Goalkeeper</item>
+    </string-array>
+
+    <!-- TODO: DELETE unused menu items -->
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text_trophies">Trophies</string>
+    <string name="text_home0">Club Profile &amp; History</string>
+    <string name="text_home1">Real Madrid Club de Fútbol, meaning (Royal Madrid Football Club), commonly referred to as Real Madrid or simply Real, is a Spanish professional football club based in Madrid.\n\nFounded on 6 March 1902 as Madrid Football Club, the club has traditionally worn a white home kit since inception. The honorific title real is Spanish for "royal" and was bestowed to the club by King Alfonso XIII in 1920 together with the royal crown in the emblem. The team has played its home matches in the 81,044-capacity Santiago Bernabéu Stadium in downtown Madrid since 1947. Unlike most European sporting entities, Real Madrid\'s members (socios) have owned and operated the club throughout its history.\n\nThe club was estimated to be worth €3.8 billion ($4.2 billion) in 2019, and it was the second highest-earning football club in the world, with an annual revenue of €757.3 million in 2019. The club is one of the most widely supported teams in the world. Real Madrid is one of three founding members of La Liga that have never been relegated from the top division since its inception in 1929, along with Athletic Bilbao and Barcelona. The club holds many long-standing rivalries, most notably El Clásico with Barcelona and El Derbi Madrileño with Atlético Madrid.</string>
+    <string name="text_home1b">Honours / UEFA Club Ranking</string>
+    <string name="text_home2">Real Madrid established itself as a major force in both Spanish and European football during the 1950s and 60s, winning five consecutive and six overall European Cups and reaching a further two finals. This success was replicated on the domestic front, with the club winning twelve league titles in the span of 16 years. This team, which included Alfredo Di Stéfano, Ferenc Puskás, Francisco Gento, and Raymond Kopa, is considered by some in the sport to be the greatest of all time.\n\nIn domestic football, the club has won 68 trophies; a record 35 La Liga titles, 19 Copa del Rey, 12 Supercopa de España, a Copa Eva Duarte, and a Copa de la Liga. In European football, Real Madrid have won a record 19 trophies; a record 13 European Cup / UEFA Champions League titles, two UEFA Cups and four UEFA Super Cups. In worldwide competitions, they have achieved a record seven club world championships.\n\nReal Madrid was recognised as the FIFA Club of the 20th Century on 11 December 2000 with 42.35% of the vote, and received the FIFA Centennial Order of Merit on 20 May 2004. The club was also awarded Best European Club of the 20th Century by the IFFHS on 11 May 2010. In June 2017, the team succeeded in becoming the first club to win consecutive Champions League titles, then made it three in a row and four in five seasons in May 2018, extending their lead atop the UEFA club rankings. As of May 2022, Real Madrid are ranked fifth behind Bayern Munich, Manchester City, Liverpool and Chelsea.</string>
+
+    <string name="text_stadium0">Santiago Bernabéu Stadium</string>
+    <string name="text_stadium1">The Bernabéu stadium has been the home stadium of Real Madrid since its completion in 1947. It is the second-largest stadium in Spain and third-largest home to a top-flight European club after Camp Nou (Barcelona) and the BVB Stadion Dortmund.
+        \n\nNamed after footballer and former Real Madrid president Santiago Bernabéu, the stadium is one of the world\'s most famous football venues. It has hosted the final of the European Cup / UEFA Champions League on four occasions: in 1957, 1969, 1980, 2010.
+        \n\nThe stadium also hosted the second leg of the 2018 Copa Libertadores Finals, making Santiago Bernabéu the first (and only) stadium to host the two most important premier continental cup finals (UEFA Champions League and Copa Libertadores).
+        \n\nThe final matches for the 1964 European Nations\' Cup and the 1982 FIFA World Cup were also held at the Bernabéu, making it the first stadium in Europe to host both a UEFA Euro final and a FIFA World Cup final.
+    </string>
+    <string name="text_stadium2a">Renovation Plans</string>
+    <string name="text_stadium2b">A €525-million renovation project was initially set to begin in summer 2017, but began in 2019. The capacity will be increased by approximately 4000 with the addition of an extra tier, bringing it to just over the 85000 mark, furthermore the height will also be increased by ten metres and a retractable roof as well as a retractable pitch will be added. The club is expected to sell the naming rights to the renovated stadium.
+        \n\nThe renovation team utilises Roman techniques with raising the top, so as not to affect the operation of the stadium during the football season. "The project is complex because it will not stop the football and therefore complicates the works and design, which has a roof that encloses the whole stadium.
+        \nThey are going to lift the roof like the Romans did, but with modern technology. They will raise the inner ring by string-pulling with hydraulic jacks, bridge technology and ski lifts in a short period of time in the summer to respect the sporting calendar," said Tristán López Chicheri, the individual in charge of the renovation.
+        \n\nChicheri believes the renovation will bring tourists to the stadium all year round, with many attractions planned. The stadium is supposed to have more restaurants, a shopping centre and a hotel, with some rooms having a view of the pitch. The "digital stadium of the future" will be equipped with a 360-degree screen and retractable roof. "It is not only on matchdays that it will be used – there are venues like the Bernabéu that are in the middle of the city and it is a shame that they have no life beyond 35–40 matches a year," said Chicheri.
+        \n\nThe work is expected to be completed during the summer of 2022 and ready for the beginning of the 2022/23 season at full capacity of 85,000+.
+    </string>
+
+</resources>

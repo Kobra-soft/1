@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Custom real_madrid colours. -->
+    <color name="real_madrid_dark_blue_from_logo_colorPrimary">#004996</color>
+    <color name="real_madrid_dark_blue_colorPrimary2">#172B4D</color>
+    <!--<color name="real_madrid_red_colorPrimaryVariant">#E62E44</color>-->
+    <color name="real_madrid_red_colorPrimaryVariant2">#00498B</color>
+    <color name="real_madrid_white_colorOnPrimary">#FFFFFF</color>
+    <color name="real_madrid_gold">#FCBF00</color>
+    <color name="real_madrid_black">#FF000000</color>
+    <color name="real_madrid_background_grey">#52E6E6E6</color>
+    <color name="real_madrid_red2">#E92C4D</color>
+
+</resources>
